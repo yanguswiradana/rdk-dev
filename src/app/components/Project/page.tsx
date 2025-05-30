@@ -4,26 +4,27 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
+      title: "Bali Mesari Cycling Tours",
       description:
-        "A full-featured online shopping platform with payment integration.",
-      imageUrl: "/images/project1.jpg", // Replace with your image path
-      link: "#",
+        "Website travel yangg terintegrasi dengan tripadvisor, google maps, dan whatsapp.",
+      imageUrl: "/images/bmct.png", // Replace with your image path
+      link: "https://balimesaricyclingtours.com/",
     },
     {
       id: 2,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website for creative professionals.",
-      imageUrl: "/images/project2.jpg", // Replace with your image path
-      link: "#",
+      title: "Kamaniya rental bali",
+      description:
+        "Website rental stoler bayi yang terintegrasi dengan whatsapp.",
+      imageUrl: "/images/kamaniya.png", // Replace with your image path
+      link: "https://kamaniyarentalbali.com/",
     },
     {
       id: 3,
-      title: "Task Management App",
+      title: "Bali Moon Art Space",
       description:
-        "A productivity app for organizing daily tasks and projects.",
-      imageUrl: "/images/project3.jpg", // Replace with your image path
-      link: "#",
+        "Website galeri seni dan cafe dengan fitur penjualan online.",
+      imageUrl: "/images/bali-moon.png", // Replace with your image path
+      link: "https://reduktor-demo.my.id/",
     },
   ];
 
@@ -62,6 +63,7 @@ const ProjectsSection = () => {
                 <p className='text-gray-600 mb-4'>{project.description}</p>
                 <a
                   href={project.link}
+                  target='_blank'
                   className='inline-block px-4 py-2 bg-[#d01c1c] text-white rounded-md hover:bg-[#b01818] transition-colors duration-300'
                 >
                   View Project

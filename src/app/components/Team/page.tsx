@@ -26,10 +26,9 @@ const TeamSection = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Michael Johnson",
-      role: "CEO & Founder",
-      image:
-        "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80",
+      name: "Parta",
+      role: "Lead Developer",
+      image: "/images/logo.png",
       social: {
         instagram: "https://instagram.com",
         linkedin: "https://linkedin.com",
@@ -37,10 +36,9 @@ const TeamSection = () => {
     },
     {
       id: 2,
-      name: "Sarah Williams",
-      role: "CTO",
-      image:
-        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80",
+      name: "Wira",
+      role: "Developer",
+      image: "/images/logo.png",
       social: {
         instagram: "https://instagram.com",
         linkedin: "https://linkedin.com",
@@ -48,10 +46,9 @@ const TeamSection = () => {
     },
     {
       id: 3,
-      name: "David Chen",
-      role: "Marketing Director",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80",
+      name: "Aby",
+      role: "Developer",
+      image: "/images/logo.png",
       social: {
         instagram: "https://instagram.com",
         linkedin: "https://linkedin.com",
@@ -59,10 +56,9 @@ const TeamSection = () => {
     },
     {
       id: 4,
-      name: "Emily Wilson",
-      role: "Lead Developer",
-      image:
-        "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80",
+      name: "Willy",
+      role: "Lead UI/UX Designer",
+      image: "/images/logo.png",
       social: {
         instagram: "https://instagram.com",
         linkedin: "https://linkedin.com",
@@ -70,21 +66,20 @@ const TeamSection = () => {
     },
     {
       id: 5,
-      name: "Robert Garcia",
-      role: "UX Designer",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80",
+      name: "Kris",
+      role: "UI/UX Designer",
+      image: "/images/logo.png",
       social: {
         instagram: "https://instagram.com",
         linkedin: "https://linkedin.com",
       },
     },
+
     {
       id: 6,
-      name: "Lisa Wong",
-      role: "Product Manager",
-      image:
-        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80",
+      name: "Nanda",
+      role: "UI/UX Designer",
+      image: "/images/logo.png",
       social: {
         instagram: "https://instagram.com",
         linkedin: "https://linkedin.com",
