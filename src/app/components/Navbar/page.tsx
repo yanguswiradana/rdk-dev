@@ -39,9 +39,9 @@ const Navbar = () => {
               Contact
             </Link>
           </div>
-          <div className='flex items-center gap-2 border-2 border-gray-100 bg-white/80 shadow backdrop-blur-lg  p-2 rounded-lg'>
+          {/* <div className='flex items-center gap-2 border-2 border-gray-100 bg-white/80 shadow backdrop-blur-lg  p-2 rounded-lg'>
             <p className='text-sm font-medium text-gray-900'>EN</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
