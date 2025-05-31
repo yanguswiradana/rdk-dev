@@ -6,8 +6,8 @@ const ProjectsSection = () => {
       id: 1,
       title: "Bali Mesari Cycling Tours",
       description:
-        "Website travel yangg terintegrasi dengan tripadvisor, google maps, dan whatsapp.",
-      imageUrl: "/images/bmct.png", // Replace with your image path
+        "Website travel yang terintegrasi dengan tripadvisor, google maps, dan whatsapp.",
+      imageUrl: "/images/bmct.png",
       link: "https://balimesaricyclingtours.com/",
     },
     {
@@ -15,7 +15,7 @@ const ProjectsSection = () => {
       title: "Kamaniya rental bali",
       description:
         "Website rental stoler bayi yang terintegrasi dengan whatsapp.",
-      imageUrl: "/images/kamaniya.png", // Replace with your image path
+      imageUrl: "/images/kamaniya.png",
       link: "https://kamaniyarentalbali.com/",
     },
     {
@@ -23,7 +23,7 @@ const ProjectsSection = () => {
       title: "Bali Moon Art Space",
       description:
         "Website galeri seni dan cafe dengan fitur penjualan online.",
-      imageUrl: "/images/bali-moon.png", // Replace with your image path
+      imageUrl: "/images/bali-moon.png",
       link: "https://reduktor-demo.my.id/",
     },
   ];
@@ -36,8 +36,8 @@ const ProjectsSection = () => {
             Our <span className='text-secondary'>Projects</span>
           </h2>
           <p className='text-gray-600 max-w-2xl mx-auto'>
-            Check out some of our recent work and what we've accomplished for
-            our clients.
+            Check out some of our recent work and what we&apos;ve accomplished
+            for our clients.
           </p>
         </div>
 
@@ -64,6 +64,7 @@ const ProjectsSection = () => {
                 <a
                   href={project.link}
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='inline-block px-4 py-2 bg-[#d01c1c] text-white rounded-md hover:bg-[#b01818] transition-colors duration-300'
                 >
                   View Project
