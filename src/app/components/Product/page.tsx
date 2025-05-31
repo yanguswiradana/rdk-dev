@@ -14,24 +14,10 @@ interface Package {
 const ProductCard = () => {
   const packages: Package[] = [
     {
-      name: "Basic Website",
-      price: "$250",
+      name: "Advance Website",
+      price: "IDR 1.500.000",
       features: [
-        "1 Landing Page",
-        "3 Additional Pages",
-        "Responsive Design",
-        "Contact Form",
-        "1 Month Support",
-      ],
-      popular: false,
-      whatsappMessage:
-        "Hi, I'm interested in the Basic Website package ($250). Can you tell me more about it?",
-    },
-    {
-      name: "Business Website",
-      price: "$500",
-      features: [
-        "5-7 Pages",
+        "5 Pages",
         "Custom Design",
         "Mobile Responsive",
         "SEO Friendly",
@@ -39,15 +25,29 @@ const ProductCard = () => {
         "Social Media Integration",
         "3 Months Support",
       ],
+      popular: false,
+      whatsappMessage:
+        "Hi, I'm interested in the Basic Website package ($250). Can you tell me more about it?",
+    },
+    {
+      name: "Basic Website",
+      price: "IDR 1.000.000",
+      features: [
+        "1 Landing Page",
+        "3 Additional Pages",
+        "Responsive Design",
+        "Contact Form",
+        "1 Month Support",
+      ],
       popular: true,
       whatsappMessage:
         "Hi, I want to order the Business Website package ($500). What's the next step?",
     },
     {
       name: "Premium Website",
-      price: "$1,000",
+      price: "IDR 2.500.000",
       features: [
-        "Unlimited Pages",
+        "5 - 8 Pages",
         "Premium Design",
         "E-commerce Functionality",
         "Payment Gateway Integration",
