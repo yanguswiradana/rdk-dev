@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 import {
   SiNextdotjs,
   SiTailwindcss,
@@ -17,7 +19,7 @@ const page = () => {
             <div className='relative w-64 h-64 md:w-80 md:h-80 rounded-xl overflow-hidden  border-gray-100'>
               {/* Replace with your actual image */}
               <div className='w-full h-full  flex items-center justify-center'>
-                <img src='/images/logo.png' alt='' />
+                <Image width={400} height={400} src='/images/logo.png' alt='' />
               </div>
             </div>
           </div>

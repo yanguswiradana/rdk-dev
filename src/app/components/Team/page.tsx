@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 import { Pagination } from "swiper/modules";
 
 // Import Swiper styles
@@ -127,7 +128,9 @@ const TeamSection = () => {
               <SwiperSlide key={member.id}>
                 <div className='group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 h-full mb-4'>
                   <div className='relative h-64 overflow-hidden'>
-                    <img
+                    <Image
+                      width={400}
+                      height={400}
                       className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-500'
                       src={member.image}
                       alt={member.name}
