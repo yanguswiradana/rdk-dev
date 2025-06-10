@@ -32,17 +32,17 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href='/about' className='hover:text-[#d01c1c]'>
+                <Link href='#about' className='hover:text-[#d01c1c]'>
                   About
                 </Link>
               </li>
               <li>
-                <Link href='/services' className='hover:text-[#d01c1c]'>
+                <Link href='#projects' className='hover:text-[#d01c1c]'>
                   Project
                 </Link>
               </li>
               <li>
-                <Link href='/contact' className='hover:text-[#d01c1c]'>
+                <Link href='#product' className='hover:text-[#d01c1c]'>
                   Product
                 </Link>
               </li>
@@ -74,7 +74,10 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section: Copyright */}
-        <div className='border-t border-gray-200 mt-8 pt-8 text-center'>
+        <div
+          id='footer'
+          className='border-t border-gray-200 mt-8 pt-8 text-center'
+        >
           <p className='text-sm text-primary font-bold'>
             &copy; {new Date().getFullYear()}{" "}
             <span className='text-secondary'>Reduktor Development.</span> All

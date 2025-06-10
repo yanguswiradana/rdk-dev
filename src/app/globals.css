@@ -22,3 +22,6 @@ body {
 code {
   font-family: var(--font-roboto-mono), monospace;
 }
+html {
+  scroll-behavior: smooth;
+}

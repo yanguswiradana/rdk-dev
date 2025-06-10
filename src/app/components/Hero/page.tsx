@@ -2,7 +2,10 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className='relative bg-white h-screen flex items-center justify-center'>
+    <div
+      id='hero'
+      className='relative bg-white h-screen flex items-center justify-center'
+    >
       {/* Background Image (optional) */}
       <div
         className='absolute inset-0 bg-cover bg-center opacity-20'
@@ -24,13 +27,13 @@ const Hero = () => {
         </p>
         <div className='space-x-4'>
           <Link
-            href='/about'
+            href='#about'
             className='bg-red-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-red-700 transition duration-300'
           >
             Learn More
           </Link>
           <Link
-            href='/contact'
+            href='#contact'
             className='bg-transparent border border-gray-900 text-gray-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-900 hover:text-white transition duration-300'
           >
             Contact Us

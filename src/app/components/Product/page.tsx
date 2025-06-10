@@ -27,7 +27,7 @@ const ProductCard = () => {
       ],
       popular: false,
       whatsappMessage:
-        "Hi, I'm interested in the Basic Website package ($250). Can you tell me more about it?",
+        "Hi, I'm interested in the Advance Website package. Can you tell me more about it?",
     },
     {
       name: "Basic Website",
@@ -41,16 +41,15 @@ const ProductCard = () => {
       ],
       popular: true,
       whatsappMessage:
-        "Hi, I want to order the Business Website package ($500). What's the next step?",
+        "Hi, I want to order the Basic Website package. What's the next step?",
     },
     {
       name: "Premium Website",
-      price: "IDR 2.500.000",
+      price: "IDR 3.000.000",
       features: [
-        "5 - 8 Pages",
+        "8 Pages",
         "Premium Design",
         "E-commerce Functionality",
-        "Payment Gateway Integration",
         "Admin Panel",
         "Advanced SEO",
         "6 Months Support",
@@ -62,7 +61,7 @@ const ProductCard = () => {
   ];
 
   const handleOrderClick = (message: string) => {
-    const phoneNumber = "YOUR_WHATSAPP_NUMBER_HERE"; // Replace with your number
+    const phoneNumber = "6285739402436"; // Replace with your number
     const encodedMessage = encodeURIComponent(message);
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodedMessage}`,
@@ -71,7 +70,7 @@ const ProductCard = () => {
   };
 
   return (
-    <div className='py-12 bg-white'>
+    <div id='product' className='py-12 bg-white'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center'>
           <h2 className='text-3xl font-extrabold text-gray-900 sm:text-4xl'>

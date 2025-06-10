@@ -21,20 +21,20 @@ const Navbar = () => {
           {/* Updated div to center the links */}
           <div className='flex flex-1 items-center justify-center md:gap-5'>
             <Link
-              href='#'
-              className='inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900'
+              href='#projects'
+              className='inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200  hover:text-[#d01c1c]'
             >
               Project
             </Link>
             <Link
-              href='#'
-              className='inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900'
+              href='#product'
+              className='inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200  hover:text-[#d01c1c]'
             >
               Product
             </Link>
             <Link
-              href='#'
-              className='inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900'
+              href='#contact'
+              className='inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200  hover:text-[#d01c1c]'
             >
               Contact
             </Link>
